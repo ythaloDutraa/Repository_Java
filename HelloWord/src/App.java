@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println(nomeCompleto("Ythalo", "Pereira"));
-    }
+        
 
-    public static String nomeCompleto(String primeiroNome, String segundoNome) {
-        return "Resultado do Método:" + primeiroNome.concat(" ").concat(segundoNome);
-    }
+    String primeiroNome = "Ythalo";
+    String segundoNome = "Ythalo";
 
+        String Tempo = primeiroNome == segundoNome ? "Verdadeiro" : "False";
+        System.out.println(Tempo);
+    }   
 }
-
